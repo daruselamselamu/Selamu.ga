@@ -1,0 +1,40 @@
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    background-color: rgb(200, 150, 0);
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+.left-panel{
+  float: left;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+header	{
+    background-color: gray;
+    padding: 10px;
+    text-align:center;
+    color: white;
+  }
+.right-panel {
+  float:right;
+  width: 80%;
+  padding: 15px;
+  }
